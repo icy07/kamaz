@@ -7725,8 +7725,10 @@
                 observer: true,
                 observeParents: true,
                 slidesPerView: 1,
+                slidesPerGroup: 1,
                 spaceBetween: 20,
                 autoHeight: true,
+                simulateTouch: false,
                 speed: 400,
                 pagination: {
                     el: ".news__pagintaion",
@@ -7738,10 +7740,12 @@
                 },
                 breakpoints: {
                     550: {
-                        slidesPerView: 2
+                        slidesPerView: 2,
+                        slidesPerGroup: 2
                     },
                     850: {
-                        slidesPerView: 3
+                        slidesPerView: 3,
+                        slidesPerGroup: 3
                     }
                 },
                 on: {}
